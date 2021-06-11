@@ -70,13 +70,13 @@ public class UsersService {
 
         }
     }
+
+
+    public void delete(Long id) {
+        repository.delete(id);
+    }
+
 }
-
-//    public void delete(Long id) {
-//        repository.delete(id);
-//    }
-
-
 /*
  * Criar a entidade da pauta > criar o repo,serv e controller > CRUD
  *

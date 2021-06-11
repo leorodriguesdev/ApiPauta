@@ -6,7 +6,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import java.io.Serializable;
 
-public class Pauta implements Serializable {
+public class Pautas implements Serializable {
     private static final long serialVersionUID = 1L;
 
     @Id
@@ -15,11 +15,11 @@ public class Pauta implements Serializable {
 
     private String theme;
 
-    public Pauta() {
+    public Pautas() {
 
     }
 
-    public Pauta(String theme) {
+    public Pautas(String theme) {
         this.theme = theme;
     }
 

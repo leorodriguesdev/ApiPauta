@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class IndexController {
 
     @GetMapping
-    public String get() { return "Api Pauta Sicredi";
+    public String get() { return "Api Pauta - Desafio Sicredi";
     }
 
 }

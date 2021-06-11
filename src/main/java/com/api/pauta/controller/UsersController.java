@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/user")
+@RequestMapping("/api/v1/users")
 public class UsersController {
 
     @Autowired
@@ -28,11 +28,11 @@ public class UsersController {
         return ResponseEntity.ok(service.saveService(user));
     }
 
-//    @DeleteMapping("/{id}")
-//    public ResponseEntity<Users> delete(@PathVariable Long id){
-//            service.delete(id);
-//        return ResponseEntity.noContent().build();
-//    }
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Users> delete(@PathVariable Long id){
+            service.delete(id);
+        return ResponseEntity.noContent().build();
+    }
 
     @GetMapping
     public ResponseEntity<List<Users>> findAllUser() {

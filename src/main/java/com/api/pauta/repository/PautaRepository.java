@@ -1,15 +1,16 @@
 package com.api.pauta.repository;
 
-import com.api.pauta.entities.Pauta;
+import com.api.pauta.entities.Pautas;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
 
-public interface PautaRepository extends JpaRepository<Pauta, Long> {
+
+public interface PautaRepository extends JpaRepository<Pautas, Long> {
 
     @Override
-    public Optional<Pauta> findById(Long id);
-    public Optional<Pauta> findByTheme(String name);
-    public Optional<Pauta> findByThemeAndId(String name,Long id);
+    public Optional<Pautas> findById(Long id);
+    public Optional<Pautas> findByTheme(String name);
+    public Optional<Pautas> findByThemeAndId(String name, Long id);
 //    public void delete(Long id);
 }
