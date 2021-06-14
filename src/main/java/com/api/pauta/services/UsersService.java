@@ -71,11 +71,13 @@ public class UsersService {
         }
     }
 
-
-    public void delete(Long id) {
-        repository.delete(id);
+    public boolean delete(Long id) {
+        if ( findByIdService(id).isPresent() ) {
+            repository.deleteById(id);
+            return true;
+        }
+        return false;
     }
-
 }
 /*
  * Criar a entidade da pauta > criar o repo,serv e controller > CRUD

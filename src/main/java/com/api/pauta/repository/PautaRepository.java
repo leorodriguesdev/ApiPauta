@@ -10,7 +10,8 @@ public interface PautaRepository extends JpaRepository<Pautas, Long> {
 
     @Override
     public Optional<Pautas> findById(Long id);
-    public Optional<Pautas> findByTheme(String name);
-    public Optional<Pautas> findByThemeAndId(String name, Long id);
-//    public void delete(Long id);
+
+    public Optional<Pautas> findByTheme(String theme);
+
+    public Optional<Pautas> findByThemeAndId(String theme, Long id);
 }
