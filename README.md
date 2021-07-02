@@ -29,7 +29,7 @@ não infrinja direitos de uso).
 !!! Ponto importante para quem chega até o dia de hoje(02/07/21), a API não está ainda concluída !!! Está em desenvolvimento, mas deixo a disposição para acompaharem a sua criação.
 
 
--- ### [Rotas com Swagger](https://github.com/onLeoRodrigues/ApiPauta/blob/main/src/main/java/com/api/pauta/images/rotasSwagger.png)
+### [Rotas com Swagger](https://github.com/onLeoRodrigues/ApiPauta/blob/main/src/main/java/com/api/pauta/images/rotasSwagger.png)
 
 
 ### 📋 Pré-requisitos
