@@ -1,4 +1,4 @@
-````# Desafio Sicredi - API Pauta 
+# Desafio Sicredi - API Pauta 
 
 Objetivo 
 
