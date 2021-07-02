@@ -1,4 +1,4 @@
-# Desafio Sicredi - API Pauta 
+````# Desafio Sicredi - API Pauta 
 
 Objetivo 
 
@@ -19,7 +19,7 @@ pode ser considerada como autorizada. A escolha da linguagem, frameworks e bibli
 não infrinja direitos de uso). 
 É importante que as pautas e os votos sejam persistidos e que não sejam perdidos com o restart da aplicação.
 
-## 🚀 ATENÇÃO
+## 🚩 ATENÇÃO
 
 !!! Ponto importante para quem chega até o dia de hoje(02/07/21), a API não está ainda concluída !!! Está em desenvolvimento, mas deixo a disposição para acompaharem a sua criação.
 
